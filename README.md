@@ -11,7 +11,10 @@
 
 Run the below commands in sequential fashion:
 
-1. Run `git clone https://github.com/abinashsinha330/cr7_hadoop_project.git` command to get code; if we get http error then need to update curl library in linux using command, `sudo yum update -y nss curl libcurl` and then again run the git clone command
+1. Run `git clone https://github.com/abinashsinha330/cr7_hadoop_project.git` command to get code; if we get<br/>
+`error: while accessing https://github.com/abinashsinha330/cr7_hadoop_project.git/info/refs<br/>
+<br/>
+fatal: HTTP request failed` then need to update curl library in linux using command, `sudo yum update -y nss curl libcurl` and then again run the git clone command
 2. Run `cd cr7_hadoop_project`
 3. Run `chomd +x ./main.sh` command to make main.sh executable bash script
 4. `main.sh` is main script used for deploying as per need and also to rollback whole deployment. Run either of these commands as part of the deliverables of the project:
