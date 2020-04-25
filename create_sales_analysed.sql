@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS cr7_sales.sales
 COMMENT 'Managed Parquet table - sales'
 STORED AS Parquet
 AS
-SELECT DISTINCT * from cr7_sales_raw.sales;
+SELECT * from cr7_sales_raw.sales;
 
 
 
