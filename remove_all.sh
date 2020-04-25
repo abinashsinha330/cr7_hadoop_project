@@ -9,4 +9,3 @@ sudo -u hdfs hdfs dfs -rm -r /salesdb
 echo "Removing everything from VM"
 cd ..
 rm -rf cr7_hadoop_project
-cd ..
